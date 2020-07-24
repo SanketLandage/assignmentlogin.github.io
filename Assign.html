@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="#"><img src="img/b5a9ddac4fec3f2efbb28c38307af5b8.jpg" alt="logo" height="35" width="41"></a>
+
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a> </li>
+                </ul>
+                <span class="navbar-text">
+                    <a data-toggle="modal" data-target="#loginModal">
+                    <span class="fa fa-sign-in fa-lg"></span> Login</a>
+                </span>
+            </div>
+                
+        </div>
+    </nav>
+
+
+        <div id="loginModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg" role="content">
+                
+                <div class="modal-content">
+                    <div class="modal-header bg-dark text-white">
+                        <h4 class="modal-title">Login </h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                        <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                        <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                    <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                                </div>
+                                <div class="col-sm-auto">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label"> Remember me
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <header class="jumbotron">
+            <div class="container">
+                <div class="row row-header">
+                    <div class="col-12 col-sm-6">
+                        <h1>Fox Trading Solutions</h1>
+                        <p>Fox Trading Solutions is a team of people who has expertise in handling large quantum of funds at various propitiatory desk.
+                            The team's experience averages to over 8 years and in the process we have seen all the phases of market.
+                            We are here to spread the knowledge and experience we have gained.</p>
+                    </div>
+                    <div class="col-12 col-sm-5 offset-1 align-self-center">
+                        <img src="img/trade5.jpg" alt="image" width="300" height="200">
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+        <div class="row row-content container" id="log">
+            <div class="col-12 col-sm-6">
+                <div class="media ">
+                    <img class="mr-3" src="img/trade.jpg" alt="Generic placeholder image" width="70" height="70">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Stocks</h5>
+                      One of the primary benefits of investing in the stock market is the chance to grow your money. Over time, the stock market tends to rise in value, though the prices of individual stocks rise and fall daily.
+                      <hr>
+                    </div>
+                   
+                </div>
+                <div class="media">
+                    <img class="mr-3" src="img/trade2.jpg" alt="Generic placeholder image" width="70" height="70">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Algorithmic Trading</h5>
+                      Algorithmic trading is a process for executing orders utilizing automated and pre-programmed trading instructions to account for variables such as price, timing and volume. An algorithm is a set of directions for solving a problem.
+                      <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="card">
+                    <h2 class="card-header bg-dark  text-white"> LogIn </h2>
+                    <div class="card-body">
+                        <form class="mt-2 ml-2 mb-2" id="log">
+                            <div class="row form-group">
+                                <label for="username" class="col-form-label col-md-3">Email</label>
+                                <input type="email" class="col-md-9" placeholder="Email / Username">
+                            </div>
+                            <div class="row form-group">
+                                <label for="password" class="col-form-label col-md-3">Password</label>
+                                <input type="password" class="col-md-9" placeholder="Password" id="password">
+                            </div>
+                            <div class=" row form-check offset-3 form-group">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label"> Remember me
+                                </label>
+                            </div>
+                            <div class="row form-group offset-3">
+                                <button class="btn btn-dark">
+                                   <span class="fa fa-sign-in fa-lg"></span> Login
+                                </button>
+                                <p><a href="#" class="ml-2"> Forgot your password?</a></p>
+                            </div>
+                            
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+            <div class="container">
+                <div class="row row-content">
+                    <div class="col-12 col-sm-8 offset-2">
+                        <h3 class="text-center">About us </h3>
+                        <p class="align-self-center">Fox Trading Solutions is a team of people who has expertise in handling large quantum of funds at various propitiatory desk. <br>
+                            The team's experience averages to over 8 years and in the process we have seen all the phases of market. <br>
+                            We are here to spread the knowledge and experience we have gained.<br>
+                            The company has grown multi-folds since inception and currently manages portfolios over Rs 5 cr and we aim to acheive AUM of 20 cr by the end of this year.<br>
+                            The belief on which we run on is think, test and deploy. We build automated engines that just need idea as a fuel, supported by co-located infrastructure for seamless execution.<br>
+                            We are authorised partners of Zerodha and SEBI registered equity derivatives analyst.</p>
+                    </div>
+                </div>
+            </div>
+        
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-2 offset-1">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                            <li><a href="#"><span class="fa fa-info fa-lg"></span> About</a></li>
+                            <li><a href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+                            <li><a href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-7 col-sm-5 ">
+                        <h5>Our Address</h5>
+                        <address class="address">
+                            Sector 26, Noida,<br>
+                            Uttar Pradesh,<br>
+                            India<br>
+                          <i class="fa fa-phone fa-lg"></i>: 8087218621<br>
+                          <i class="fa fa-inbox fa-lg"></i>: 8087218621<br>
+                          <i class="fa fa-envelope-open fa-lg"></i> <a href="mailto:sanket.landage@gmail.com">sanket.landage@gmail.com</a>
+                       </address>
+                    </div>
+                    <div class="col-12 col-sm-4 align-self-center ">
+                        <div class="text-center ">
+                            <p>This All information is taken just for demonstration of assignment.</p>
+                        </div>
+                    </div>       
+                </div>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
