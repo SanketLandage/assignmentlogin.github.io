@@ -8,6 +8,7 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -22,7 +23,7 @@
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a> </li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"><span class="fa fa-address-card fa-lg"></span> Contact</a> </li>
                 </ul>
                 <span class="navbar-text">
                     <a data-toggle="modal" data-target="#loginModal">
@@ -69,11 +70,13 @@
             </div>
         </div>
         
-        <header class="jumbotron">
+
+        
+        <header class="jumbotron" >
             <div class="container">
-                <div class="row row-header">
+                <div class="row row-header" data-aos="fade-up" data-aos-duration="1500">
                     <div class="col-12 col-sm-9">
-                        <h1>Fox Trading Solutions <i class="fa fa-usd fa-lg"></i></h1><br>
+                        <h1 >Fox Trading Solutions <i class="fa fa-usd fa-lg"></i></h1><br>
                         <h3>Trading and Automation solutions</h3><br>
                         <p>Money is the primary objective of any investment and that's we are here for.
                             Let trading work for you is our motto.
@@ -82,7 +85,7 @@
                     <div class="col-12 col-sm-3  align-self-center">
                                 <button class="btn btn-light btn-block" data-toggle="modal" data-target="#loginModal">
                                     
-                                    <span class="fa fa-sign-in fa-lg"></span> Login
+                                    <span class="fa fa-sign-in fa-lg"></span> Login Here
                                 </button>
                     </div>
                                         
@@ -91,20 +94,21 @@
         </header>
 
         <div class="container">
-            <div class="row row-content">
+            <div class="row row-content" data-aos="fade-down"
+            data-aos-duration="2500">
                 <div class="col">
                     <div id="mycarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
                                 <img class="d-block img-fluid"
-                                    src="img/d4.png" alt="Uthappizza">
+                                    src="img/c1.jpg" alt="Uthappizza">
                                 <div class="carousel-caption ">
                                     <h2>Stocks  <span class="fa fa-usd fa-lg"></span></h2>
                                     <p>One of the primary benefits of investing in the stock market is the chance to grow your money. Over time, the stock market tends to rise in value. </p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/trade2.jpg" alt="buffet" class="d-block img-fluid">
+                                <img src="img/c2.jpg" alt="buffet" class="d-block img-fluid">
                                 <div  class="carousel-caption ">
                                     <h2>Algorithmic Trading</h2>
                                     <p>It is a automated and pre-programmed trading instructions to account for variables such as price, timing and volume. </p>
@@ -112,7 +116,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/d2.jpg" alt="chef" class="d-block img-fluid">
+                                <img src="img/c3.jpg" alt="chef" class="d-block img-fluid">
                                 <div  class="carousel-caption ">
                                     <h2>Invest Marketplace</h2>
                                     <p>Choose from our wide range of strategies.That includes all of the Marketplace Investors who keep public service.</p>
@@ -137,13 +141,13 @@
                  </div>
             </div>
 
-            <div class="container">
-                <div class="row row-content align-self-center">
+            <div class="container ">
+                <div class="row row-content align-self-center" data-aos="fade-down">
                     <div class="col-sm-4">
-                        <img src="img/trade2.jpg" alt="stock" class="d-flex mr-3 rounded-circle align-self-center" width="200" height="200">
+                        <img src="img/trade2.jpg" alt="stock" class="d-flex mr-3 img-thumbnail align-self-center" width="200" height="200">
                             
                     </div>
-                    <div class="col col-sm col-md ">
+                    <div class="col col-sm col-md " >
                         <div class="media">
                             <div class="media-body">
                                 <h2>Stocks</h2>
@@ -153,12 +157,12 @@
                     </div>
                 </div>
 
-                <div class="row row-content align-self-center">
+                <div class="row row-content align-self-center" data-aos="fade-down">
                     <div class="col-sm-4">
                         <img src="img/trade5.jpg" alt="stock" class="d-flex mr-3 img-thumbnail align-self-center" width="200" height="200">
                             
                     </div>
-                    <div class="col col-sm col-md order-first">
+                    <div class="col col-sm col-md ">
                         <div class="media">
                             <div class="media-body">
                                 <h2>Algorithmic Trading</h2>
@@ -167,9 +171,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row row-content align-self-center">
+                <div class="row row-content align-self-center" data-aos="fade-down">
                     <div class="col-sm-4">
-                        <img src="img/trade.jpg" alt="Stocks" class="d-flex mr-3 rounded-circle align-self-center" width="200" height="200">
+                        <img src="img/trade.jpg" alt="Stocks" class="d-flex mr-3 img-thumbnail align-self-center" width="200" height="200">
                     </div>
                     <div class="col col-sm col-md ">
                         <div class="media">
@@ -185,12 +189,11 @@
             </div>
         
         
-            <div class="container ">
+            <div class="container " data-aos="fade-down">
                 <h1 class="text-center mt-3">About Us</h1>
                 <div class="row row-content align-self-center mr-auto">
-                    <div class="col-12 col-sm-3 ">
+                    <div class="col-12 col-sm-3 " data-aos="flip-down">
                         <div class="card" style="width:auto">
-                            <img class="card-img-top" src="img/team.png" alt="team img" style="width:100%">
                             <div class="card-body">
                               <h4 class="card-title">Smart Team</h4>
                               <p class="card-text">The team's experience averages to over 8 years and in the process we have seen all the phases of market. </p>
@@ -198,19 +201,17 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col-12 col-sm-3 ">
+                    <div class="col-12 col-sm-3 " data-aos="flip-down">
                         <div class="card" style="width:auto">
-                            <img class="card-img-top" src="img/rev.jpg" alt="team img" style="width:100%">
                             <div class="card-body">
                               <h4 class="card-title">Growth</h4>
-                              <p class="card-text">We grown multi-folds since inception & currently manages portfolios over Rs 5 cr and we aim to acheive AUM of 20 cr by the end of this year.</p>
+                              <p class="card-text">We grown multi-folds since inception & currently manages portfolios over Rs 5 cr and we aim to acheive AUM of 20 cr by the end of this year. </p>
                               
                             </div>
                           </div>
                     </div>
-                    <div class="col-12 col-sm-3 ">
+                    <div class="col-12 col-sm-3 " data-aos="flip-down">
                         <div class="card" style="width:auto">
-                            <img class="card-img-top" src="img/think.png" alt="team img" style="width:100%">
                             <div class="card-body">
                               <h4 class="card-title">Think,Test,Deploy</h4>
                               <p class="card-text">We build automated engines that just need idea as a fuel, supported by co-located infrastructure for seamless execution. </p>
@@ -218,9 +219,8 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col-12 col-sm-3 ">
+                    <div class="col-12 col-sm-3 " data-aos="flip-down">
                         <div class="card" style="width:auto">
-                            <img class="card-img-top" src="img/partner.png" alt="team img" style="width:100%">
                             <div class="card-body">
                               <h4 class="card-title">Partners</h4>
                               <p class="card-text">We are authorised partners of Zerodha and SEBI registered equity derivatives analyst.</p>
@@ -232,15 +232,91 @@
             </div>
         
 
+
+            <div class="container" id="contact" >
+                <div class="row row-content justify-content-center mr-auto" data-aos="fade-down">
+                    <div class="col-12">
+                       <h2 class="text-center mb-2 ">Contact Us</h2>
+                    </div>
+                     <div class="col-12 col-md-8">
+                         <form>
+                             <div class="row form-group" >
+                                 <label for="firstname" class="col-md-2 col-form-label">Name</label>
+                                 <div class="col-md-10">
+                                     <input type="text" class="form-control" id="firstname" 
+                                     placeholder="First Name" name="firstname">
+                                 </div>
+                             </div>
+                             
+         
+                             <div class="row form-group" >
+                                 <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Num.</label>
+                                 <div class="col-5 col-md-2">
+                                     <input type="tel" class="form-control" id="areacode" 
+                                     placeholder="Country Code" name="areacode">
+                                 </div>
+                                 <div class=" col-7 col-md-8">
+                                     <input type="tel" class="form-control" id="telnum" 
+                                     placeholder="Telephone Number" name="telnum">
+                                 </div>
+                             </div>
+                             <div class="row form-group">
+                                 <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                                 <div class="col-md-10">
+                                     <input type="email" class="form-control" id="emailid" 
+                                     placeholder="xyz@gmail.com" name="emailid">
+                                 </div>
+                             </div>
+         
+                             <div class="form-group row">
+                                 <div class="col-md-6 offset-2">
+                                     <div class="form-check">
+                                         <input type="checkbox" name="approve" id="approve"
+                                             class="form-check-input" value="">
+                                         <label for="approve" class="form-check-label">
+                                             <strong>can we contact you back?</strong>
+                                         </label>
+                                     </div>
+                                 </div>
+                                 <div class="col-md-2">
+                                     <select class="form-control">
+                                         <option>Tel.</option>
+                                         <option >Email</option>
+                                     </select>
+                                 </div>
+                             </div>
+         
+                             <div class="row form-group">
+                                 <label for="feedback" class="col-md-2 col-form-label">Any queries ?</label>
+                                 <div class="col-md-10">
+                                     <textarea name="feedback" id="feedback" class="form-control" rows="4"></textarea>
+                                 </div>
+                             </div>
+                             <div class="row form-group">
+                                 <div class="offset-md-2 col-md-10">
+                                 <button class="btn btn-dark" type="submit">
+                                     Submit
+                                 </button>
+                                 </div>
+                             </div>
+                         </form>
+                     </div>
+                      
+                </div>
+            </div>
+            
+     
+         
+
         <footer class="footer">
             <div class="container">
-                <h2 class="text-center mb-2">Contact Us </h2>
-                <div class="row">
+                
+                <div class="row" data-aos="fade-down">
                     <div class="col-4 col-sm-2 offset-1">
                         <h5>Links</h5>
                         <ul class="list-unstyled text-white">
                             <li ><a href="#" class="text-white"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                            <li><a href="#" class="text-white"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                            <li><a href="#contact" class="text-white"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-7 col-sm-5 ">
@@ -255,9 +331,7 @@
                        </address>
                     </div>
                     <div class="col-12 col-sm-4 align-self-center ">
-                        <div class="text-center ">
-                            <p>This All information is taken just for demonstration of assignment.</p>
-                        </div>
+                        
                     </div>       
                 </div>
             </div>
@@ -266,5 +340,9 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
