@@ -35,7 +35,6 @@ body {
     margin: auto;
     /* background-color: #4e5052;
     color: floralwhite; */
-    background-color: #f2edf2;
 }
 
 .tab-content{
@@ -73,4 +72,13 @@ body {
 /* .card{
     color: black;
 } */
-
+.new{
+  background-image: url("https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  min-height: 700px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px auto;
+  padding: 100px 0px 100px 0px;
+}
